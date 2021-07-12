@@ -1,0 +1,378 @@
+
+
+
+
+ main {
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .columnco {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+  }
+
+  
+  .columnco .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 500px;
+    margin: 8px;
+
+  }
+
+
+/* ========================== */
+/*   backface-visibility:visible;
+ */
+  .columnco .card:hover {
+z-index: 0.5;
+transform: scale(1);
+box-shadow: 0 25px 40px rgba(0,0,0,.5);
+
+}
+
+
+
+  
+  .containerclass::after, .row::after {
+    content: "";
+    padding: 0 16px;
+     clear: both;
+    display: table;
+  }
+  
+  
+  
+ 
+  
+  
+
+
+
+#imgplane{
+    width: 100%;
+    height: 200px ;
+}
+#ourteam h2 {
+  
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ourteam .titlesubject {
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+  color:rgb(64, 64, 151)
+}
+
+#ourteam #team  {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  color: rgba(18, 115, 224, 0.87);
+
+
+} 
+
+/* #maliksec {
+ margin-left: 125px;
+}
+
+#ahmadsec {
+margin-left: 150px;
+} */
+
+
+
+p {
+  font-size: 25px;
+}
+
+
+
+
+#abdsec {
+  text-align: center;
+  letter-spacing: .025em;
+  transform: translate3d(0, 0, 0);
+  backface-visibility:visible;
+
+}
+#duaasec { text-align: center;
+  letter-spacing: .025em;
+  transform: translate3d(0, 0, 0);
+  backface-visibility:visible;
+}
+
+#khaledsec {
+  text-align: center;
+  letter-spacing: .025em;
+  transform: translate3d(0, 0, 0);
+  backface-visibility:visible;
+}
+
+#ahmadsec {
+  text-align: center;
+  letter-spacing: .025em;
+  transform: translate3d(0, 0, 0);
+  backface-visibility:visible;
+  margin-left: 250px;
+
+
+}
+
+#maliksec {
+
+text-align: center;
+letter-spacing: .025em;
+background: #ffffff;
+transform: translate3d(0, 0, 0);
+backface-visibility:visible;
+margin-left: 200px;
+}
+
+
+
+ #ourteam .email a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  line-height: 1.8;
+  font-family: "Montserrat", sans-serif, Arial, sans-serif; 
+  padding-top: 10px;
+padding-left: 0px;
+text-align: center;
+margin-left: 10px;
+color:rgba(107, 95, 95, 0.993)
+}
+  
+
+.card :hover:before{
+  background-color:rgba(135, 206, 250, 0.041);
+  opacity: 1;
+}
+
+
+#icons {
+  display:flex;
+ 
+  
+}
+
+#icon { 
+ margin-top: 33px;
+font-size: 20px;
+margin-left: 40px;
+
+}
+
+#iconabd {
+  margin-left: 50px;
+}
+
+#icondua {
+  margin-left: 40px;
+}
+
+#iconkhalid {
+  margin-left: 30px;
+}
+
+
+.mybtn{
+  float: right;
+  margin-right:20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#mybtn{
+padding: 12px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+width: 50px;
+font-size:15px;
+background-color:rgb(83, 185, 233);
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 375px;
+}
+#mybtn a{
+color: white;
+  text-decoration: none;
+
+}
+#mybtn:hover {
+background-color: #1fd8aa;
+}
+
+.card:hover {
+  background-color: rgba(154, 173, 207, 0.11);
+ 
+}
+
+
+#abd {
+  border-radius: 50%;
+
+}
+#duaa {
+  border-radius: 50%;
+}
+#khaled {
+  border-radius: 50%;
+}
+#ahmad {
+  border-radius: 50%; 
+ opacity:1;
+ transform: 0.5s ;
+transition: 0.3s;
+
+  
+}
+#malik {
+  border-radius: 50%;
+}
+
+
+
+#duaa:hover {
+  bottom: 50px;
+  opacity: 1;
+  padding: 5px;
+  text-decoration: none;
+}
+#abd:hover {
+  bottom: 50px;
+  opacity: 1;
+  padding: 5px;
+  text-decoration: none;
+}
+#khaled:hover {
+  bottom: 50px;
+  opacity: 1;
+  padding: 5px;
+  text-decoration: none;
+}
+
+
+#ahmad:hover {
+  bottom: 50px;
+  padding: 5px;
+  z-index: 0.5;
+  transform: scale(1);
+  text-decoration: none;
+  
+}
+#malik:hover {
+  bottom: 50px;
+  opacity: 1;
+  padding: 5px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+   
+/* main{
+  margin-top: 30px !important;
+  font-family: Helvetica,Arial,sans-serif;
+}
+h3{
+  margin: 0;
+}
+.our-team{
+  text-align: center;
+  position: relative;
+  color: #fff;
+  padding: 8 8px;
+  padding-top: 20px;
+
+}
+.our-team:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  transition:all 0.3s ease 0s;
+  opacity: 0;
+}
+.our-team:hover:before{
+  opacity: 1;
+}
+.our-team img{
+  width: 100%;
+  height: auto;
+}
+.our-team .team-content{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 0;
+  background-color: rgba(83,185,233,.9);
+  transition:all 0.3s ease 0s;
+}
+.our-team:hover .team-content{
+  bottom: 20%;
+}
+.our-team .team-content .name{
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+  transition:all 0.3s ease 0s;
+}
+.our-team:hover .team-content .name{
+  transform:translateY(30px);
+  transition-delay:0.3s;
+}
+.our-team .team-content .post{
+  font-size: 17px;
+  display: block;
+  transition:all 0.3s ease 0s;
+  text-transform: capitalize;
+}
+.our-team:hover .team-content .post{
+  transform:translateY(-30px);
+  transition-delay:0.3s;
+}
+
+@media screen and (max-width:990px){
+  .our-team{
+      margin-bottom: 30px !important;
+  }
+}
+
+
+#team  {
+  color: rgba(23, 23, 110, 0.849);
+  margin-top: 20px;
+} 
+
+
+
+
+#imgplane {
+  width: 100%;
+  
+} */
