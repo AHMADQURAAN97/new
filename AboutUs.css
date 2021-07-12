@@ -25,8 +25,8 @@
   .columnco .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 400px;
-    height: 500px;
-    margin: 8px;
+    height: 450px;
+    margin: 4px;
 
   }
 
@@ -124,7 +124,7 @@ p {
   letter-spacing: .025em;
   transform: translate3d(0, 0, 0);
   backface-visibility:visible;
-  margin-left: 250px;
+  margin-left: 200px;
 
 
 }
@@ -136,7 +136,7 @@ letter-spacing: .025em;
 background: #ffffff;
 transform: translate3d(0, 0, 0);
 backface-visibility:visible;
-margin-left: 200px;
+margin-left: 700px;
 }
 
 
